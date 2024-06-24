@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .team-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .team-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .team-section span {
+            color: #007bff;
+        }
+        .team {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .team-member {
+            position: relative;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 250px;
+        }
+        .team-member img {
+            width: 100%;
+            border-radius: 10px;
+            transition: opacity 0.3s ease;
+        }
+        .team-member h3 {
+            font-size: 1.5em;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+        .team-member p {
+            margin: 0;
+            color: #777;
+        }
+        .social-icons {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            gap: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .social-icons a {
+            color: black;
+            font-size: 1.5em;
+            text-decoration: none;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5px;
+            border-radius: 50%;
+        }
+        .team-member:hover .social-icons {
+            opacity: 1;
+        }
+        .team-member:hover img {
+            opacity: 0.3;
+        }
+        .curved-rectangle {
+            background-color: #009dff; /* Background color */
+            color: blue; /* Text color */
+            padding: 20px 40px; /* Padding inside the rectangle */
+            border-radius: 20px; /* Curved corners */
+            text-align: center; /* Center the text */
+            font-size: 1.5em; /* Font size */
+            display: inline-block; /* Inline block to adjust the size based on content */
+        }
+    </style>
+</head>
+<body>
+    <div class="curved-rectangle">
+        Team
+    </div>
+    <section class="team-section">
+        <h2>Our Hardworking <span>Team</span></h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="C:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 183446.png" alt="Walter White">
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><img src="c:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 185503.png" alt="Facebook"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="C:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 185532.png" alt="Instagram"></a>
+                    <a href="https://linkedin.com" target="_blank"><img src="C:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 185409.png" alt="LinkedIn"></a>
+                </div>
+                <h3>Walter White</h3>
+                <p>Chief Executive Officer</p>
+            </div>
+            <div class="team-member">
+                <img src="C:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 183359.png" alt="Sarah Jhonson">
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><img src="c:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 185503.png" alt="Facebook"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="C:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 185532.png" alt="Instagram"></a>
+                    <a href="https://linkedin.com" target="_blank"><img src="C:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 185409.png" alt="LinkedIn"></a>
+                </div>
+                <h3>Sarah Jhonson</h3>
+                <p>Product Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="C:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 183407.png" alt="William Anderson">
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><img src="c:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 185503.png" alt="Facebook"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="C:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 185532.png" alt="Instagram"></a>
+                    <a href="https://linkedin.com" target="_blank"><img src="C:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 185409.png" alt="LinkedIn"></a>
+                </div>
+                <h3>William Anderson</h3>
+                <p>CTO</p>
+            </div>
+            <div class="team-member">
+                <img src="C:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 183433.png" alt="Amanda Jepson">
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><img src="c:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 185503.png" alt="Facebook"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="C:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 185532.png" alt="Instagram"></a>
+                    <a href="https://linkedin.com" target="_blank"><img src="C:\Users\raksh\OneDrive\Pictures\Screenshots\Screenshot 2024-06-22 185409.png" alt="LinkedIn"></a>
+                </div>
+                <h3>Amanda Jepson</h3>
+                <p>Accountant</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
